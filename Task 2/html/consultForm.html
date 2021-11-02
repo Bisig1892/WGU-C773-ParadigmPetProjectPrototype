@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal fade " id="consultationModal" tabindex="-1" role="dialog" aria-labelledby="consultationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="form">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="consultationModalLabel">Consultation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="username@gmail.com">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="timeZone">Time Zone</label>
+                    <select id="timeZone" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="petName">Pet Name</label>
+                    <input type="text" class="form-control" id="petName" placeholder="Pet Name">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="petType">Pet Type</label>
+                    <select id="petType" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>Cat</option>
+                      <option>Dog</option>
+                      <option>Small Animal</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-2">
+                    <label for="petAge">Pet Age</label>
+                    <input type="petAge" class="form-control" id="petAge" placeholder="Pet Age">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

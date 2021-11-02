@@ -1,0 +1,73 @@
+h1{
+    color: #003B6D;
+}
+h3{
+    padding: 1.25rem 0rem 1.25rem;
+    color: #003B6D;
+}
+h5{
+    color: #003B6D;
+}
+nav{
+    background: linear-gradient( 90deg,#003B6D, #6699CC);
+
+}
+p{
+    color: #676767; 
+}
+footer{
+    background: linear-gradient(90deg, #003B6D, #6699CC);
+}
+footer h5{
+    color: #bdbdbd;
+}
+footer p{
+    color: white;
+}
+.nav-link{
+    text-decoration: none;
+    color:  #676767;
+}
+.consult-btn{
+    background-color: #bdbdbd;
+    margin-right: 0.5rem;
+}
+.fetch-btn{
+    background-color: #bdbdbd;
+    color: black;
+}
+.img-logo {
+    width: 7.5rem;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.consult-btn{
+    margin-right: 0.5rem;
+}
+.home-quote {
+    padding: 5rem 0rem;
+}
+.img-thumbnail {
+    width: 50rem;
+    height: 20rem;
+}
+.pet-title {
+    padding-top: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    color: #003B6D;
+}
+.link-list{
+    text-decoration: none;
+    color: white;
+}
+.link-list-website{
+        text-decoration: none;
+        color: #6699CC;
+}
+#more-to-come{
+    text-align: center;
+    margin: 2rem;
+}

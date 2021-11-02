@@ -1,0 +1,73 @@
+h1{
+    color: #003B6D;
+}
+h3{
+    padding: 1.25rem 0rem 1.25rem;
+    color: #003B6D;
+}
+h5{
+    color: #003B6D;
+}
+nav{
+    background: linear-gradient( 90deg,#003B6D, #6699CC);
+
+}
+p{
+    color: #676767; 
+}
+footer{
+    background: linear-gradient(90deg, #003B6D, #6699CC);
+}
+footer h5{
+    color: #bdbdbd;
+}
+footer p{
+    color: white;
+}
+.nav-link{
+    text-decoration: none;
+    color: #bdbdbd;
+}
+.consult-btn{
+    background-color: #bdbdbd;
+    margin-right: 0.5rem;
+}
+.fetch-btn{
+    background-color: #bdbdbd;
+    color: black;
+}
+.img-logo {
+    width: 7.5rem;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-thumbnail {
+    width: 5rem;
+    height: auto;
+}
+.consult-btn{
+    margin-right: 0.5rem;
+}
+.carousel{
+    padding-top: 5%;
+}
+.carousel-item {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.cat-summary{
+    size: 660px;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 20%;
+}
+.question-div{
+    margin-top: 2rem;
+}
+.link-list{
+    text-decoration: none;
+    color: white;
+}
